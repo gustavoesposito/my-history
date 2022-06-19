@@ -15,6 +15,11 @@
    margin-block-end: 1em;
    margin-inline-start: 0px;
    margin-inline-end: 0px;
+   padding: 0px 20px 30px 20px;
+border: 15px;
+ }
+article h3{
+   color: #38A;
 }
 
   .sobreh1{
@@ -47,11 +52,13 @@ font-family: 'Playfair Display SC', serif;
    padding-right: 10px;
    color:#38A;
    text-decoration: none;
+   padding-bottom: 25px;
  }
  .dois{
    color:#38A;
    padding-left: 10px;
    text-decoration: none;
+   padding-bottom: 25px;
  }
  .um :hover{
  color: #222;
@@ -67,6 +74,18 @@ font-family: 'Playfair Display SC', serif;
 padding: 30px;
 border: 5px;
 font-size: 20px;
+text-transform: uppercase;
  }
-
+ .about-site{
+color: #222;
+text-align: center;
+padding: 30px;
+border: 5px;
+font-size: 20px;
+text-transform: uppercase;
+ }
+.about-site-p{
+padding: 0px 20px 30px 20px;
+border: 15px;
+ }
 

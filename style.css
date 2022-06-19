@@ -1,5 +1,5 @@
 @charset 'UTF-8';
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Playfair+Display+SC&display=swap');
 
  *{
     margin: 0px;
@@ -7,43 +7,66 @@
     box-sizing: border-box;
  }
  body{
-background-color:#fff ; 
-color: #1D3C78;
+   color: #222;
+ }
+ p {
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
 }
 
- header{
-   font-family: 'Archivo', sans-serif;
- }
- 
- .logo img{
-border-radius: 50%;
-width: 200px;
-height: 200px;
-position: absolute;
-left: 45%;
-top: 20%;
- }
-  .title{
-   position: absolute;
-   left: 45%;
-   top: 50%;
+  .sobreh1{
+   font-family: 'Barlow', sans-serif;
+font-family: 'Playfair Display SC', serif;
+   color: #424242;
  text-align: center;
-  }
-  .github{
-   position: absolute;
-   top: 70%;
-   left: 35%;
-   right: 65%;
-   width: 500px;
- padding: 20px;
- border-radius: 50px;
- font-size: 20px;
- color: white;
- background-color: #1D3C78;
- display: flexbox;
- flex-wrap: wrap;
-  }
-  .github :hover {
-   color: #1D3C78;
-   background-color: #fff;
-  }
+   padding-top: 20px;
+   font-size:40px ;
+   letter-spacing: 4px;
+   vertical-align: inherit;
+   font-weight: 400;
+ }
+ .explicações{
+   border-bottom: none;
+   font-size: 20px;
+   font-weight: 300;
+   color: #ccc;
+    text-align: center;
+ }
+.mini-menu{
+   text-align: center;
+   padding: 20px;
+   font-size: 20px;
+   text-decoration: none;
+ 
+   
+ }
+ .um{
+   padding-right: 10px;
+   color:#38A;
+   text-decoration: none;
+ }
+ .dois{
+   color:#38A;
+   padding-left: 10px;
+   text-decoration: none;
+ }
+ .um :hover{
+ color: #222;
+   text-decoration: underline;
+ }
+ .dois :hover{
+ color: #222;
+  text-decoration: underline;
+ }  
+ .sobre-text{
+   color: #222;
+   text-align: center;
+padding: 30px;
+border: 5px;
+font-size: 20px;
+ }
+
+
